@@ -1,0 +1,22 @@
+{
+  "name": "odeio.com.br",
+  "version": "1.0.0",
+  "description": "Source code for odeio.com.br.",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "cp -R src/* dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igor9silva/odeio.com.br.git"
+  },
+  "keywords": [
+    "odeio"
+  ],
+  "author": "Igor Silva <igor.silva@garra.tv>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/igor9silva/odeio.com.br/issues"
+  },
+  "homepage": "https://github.com/igor9silva/odeio.com.br#readme"
+}
