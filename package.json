@@ -4,7 +4,7 @@
   "description": "Source code for odeio.com.br.",
   "main": "src/index.js",
   "scripts": {
-    "build": "cp -R src/* dist/"
+    "build": "cp -R src/* public/"
   },
   "repository": {
     "type": "git",
@@ -13,7 +13,7 @@
   "keywords": [
     "odeio"
   ],
-  "author": "Igor Silva <igor.silva@garra.tv>",
+  "author": "Igor Silva <me@igorsilva.com.br>",
   "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/igor9silva/odeio.com.br/issues"
