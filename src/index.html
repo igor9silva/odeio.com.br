@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Coisas que odiamos."/>
-    <meta http-equiv="Content-Language" content="pt-br">
-    <title>Coisas que odeio no Brasil</title>
 
-    <!-- include firebase core -->
-    <script defer src="/__/firebase/8.6.8/firebase-app.js"></script>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Coisas que odiamos." />
+  <meta http-equiv="Content-Language" content="pt-br">
+  <title>Coisas que odeio no Brasil</title>
 
-    <!-- include Firebase modules -->
-    <script defer src="/__/firebase/8.6.8/firebase-analytics.js"></script>
-    <script defer src="/__/firebase/8.6.8/firebase-performance.js"></script> <!-- 
+  <!-- include firebase core -->
+  <script defer src="/__/firebase/8.6.8/firebase-app.js"></script>
+
+  <!-- include Firebase modules -->
+  <script defer src="/__/firebase/8.6.8/firebase-analytics.js"></script>
+  <script defer src="/__/firebase/8.6.8/firebase-performance.js"></script> <!-- 
     <script defer src="/__/firebase/8.6.8/firebase-auth.js"></script>
     <script defer src="/__/firebase/8.6.8/firebase-database.js"></script>
     <script defer src="/__/firebase/8.6.8/firebase-firestore.js"></script>
@@ -21,36 +22,32 @@
     <script defer src="/__/firebase/8.6.8/firebase-storage.js"></script>
     <script defer src="/__/firebase/8.6.8/firebase-remote-config.js"></script> -->
 
-    <!-- auto-initialize with Firebase "magic" URL -->
-    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+  <!-- auto-initialize with Firebase "magic" URL -->
+  <script defer src="/__/firebase/init.js?useEmulator=true"></script>
 
-    <style>
-      body {
-        background-image: url(assets/homicides.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
+  <style>
+    h1 {
+      color: white;
+      /* text-shadow: 1.5px 0.5px black; */
+      text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);
+      font-size: 3em;
+    }
+  </style>
 
-      h1 {
-        color: white;
-        /* text-shadow: 1.5px 0.5px black; */
-        text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);
-        font-size: 3em;
-      }
-    </style>
+</head>
 
-  </head>
-  <body>
+<body>
 
-    <!-- <h1 alt="presidente cuzão do caralho">Cuzão do cacete</h1> -->
-    <h1>Homícidios: Brazil vs Mundo</h1>
+  <img src="assets/homicides.jpg" alt="Homícidios: Brazil vs Mundo"
+    style="width: 100%; height: 100%; object-fit: cover;">
 
-    <script>
-      document.addEventListener('DOMContentLoaded', () => {
-        firebase.analytics();
-        firebase.performance();
-      });
-    </script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      firebase.analytics();
+      firebase.performance();
+    });
+  </script>
 
-  </body>
+</body>
+
 </html>
